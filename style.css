@@ -1,0 +1,348 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.parte1 {
+    background-color:#c22026;
+     height: 792px;
+   
+}
+
+header {
+    width: 100%;
+    height: 100vh;
+}
+
+a {
+    text-decoration: none;
+}
+
+header .menu {
+
+    height: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+
+}
+
+header .menu li {
+    display: inline-block;
+    color: black;
+    font-size: 25px;
+    font-family: fantasy;
+
+}
+
+header .menu li:hover {
+    color: white;
+
+}
+
+
+header .menu a {
+    color: white;
+    padding: 8px 12px;
+
+}
+
+.botao a {
+    text-decoration: none;
+}
+
+
+.botao2 {
+    display: inline-block; 
+    color: rgb(255, 255, 255);
+    background: #8b0b0b;
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+    padding: 10px;
+    transition: transform 0.2s;
+}
+
+.botao2:hover {
+    color: white;
+    transform: scale(1.1);
+}
+
+.guitar{
+    width: 940px;
+    margin: 0 auto;
+    padding: 145px 0;
+}
+
+.guitar li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 50px;
+    box-sizing: border-box;
+    border: 4px solid gray;
+    border-radius: 10px;
+    transition: transform 0.4s;
+
+}
+
+.guitar li:hover{
+    transform: scale(1.1);
+
+}
+
+.p1{
+    font-size: 20px;
+    padding-bottom: 10px;
+
+}
+
+
+.p2{
+    font-size: 18px;
+    color: #06c;
+
+}
+
+.artistas{
+    background-color: #8b0b0b;
+    height: 600px;
+}
+
+h1{
+    font-size: 34px;
+  color: #ffffff;
+}
+
+.patrocinio li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 20px 15px;
+    box-sizing: border-box;
+    border: 4px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    transition: transform 0.2s;
+
+}
+
+.patrocinio li:hover{
+    transform: scale(1.1);
+}
+
+.p11{
+    color: white;
+}
+
+.box{
+    position: absolute;
+    width: 932.18px;
+    height: 588.76px;
+    left: 688.59px;
+    top: 179.66px;
+    width: 932.18px;
+    height: 588.76;
+    background-position: right;
+    background-repeat: no-repeat;
+    align-items: center;
+    display: flex;
+    justify-content: right;
+}
+
+.fender{
+    position: absolute;
+    left: 160px;
+    top: 230px;
+    
+ }
+    
+.slogan{  
+ color: white;
+font-size: 76px;
+
+}
+
+.fender1{
+ font-size: 32px;
+ color: white;
+ font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+.botao01{
+  
+    background-color: rgb(136, 22, 22);
+   border: 3px solid white;
+   text-decoration: none;
+   padding: 30px 50px;
+   border-radius: 70px;
+}
+
+.riviera{
+    background-image: url(Guitarsimg/back.png);
+  background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+height: 900px;
+ 
+}
+
+
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 100px;
+  }
+  
+  .card {
+    background-color: #c22026;
+    padding: 30px;
+    border-radius: 4%;
+    box-shadow: 3px 3px 1px 0px #bd9c9c;
+    width: 400px;
+
+  }
+  
+  h1{
+    text-align: center;
+    margin-bottom: 20px;
+    color: #ffffff
+  }
+  
+  .label-float input{
+    width: 100%;
+    padding: 5px 5px;
+    display: inline-block;
+    border: 0;
+    border-bottom: 2px solid #ffffff;
+    background-color: transparent;
+    outline: none;
+    min-width: 180px;
+    font-size: 16px;
+    transition: all .3s ease-out;
+    border-radius: 0;
+    
+  }
+  
+  .label-float{
+    position: relative;
+    padding-top: 13px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-size: 18px;
+  }
+  
+  .label-float input:focus{
+    border-bottom: 2px solid #130f3a;
+  }
+  
+  .label-float label{
+    color: #4d0a0a;
+    pointer-events: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 13px;
+    transition: all .3s ease-out;
+  }
+  
+  .label-float input:focus + label,
+  .label-float input:valid + label{
+    font-size: 13px;
+    margin-top: 0;
+    color: #4038a0
+  }
+  
+  button{
+    background-color: transparent;
+    border-color: #ebdfdf;
+    color: #ebcdcd;
+    padding: 7px;
+    font-weight: bold;
+    font-size: 12pt;
+    margin-top: 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    outline: none;
+    transition: all .4s ease-out;
+  }
+  
+  button:hover{
+    background-color: #6d6d6d;
+    color: #fff;
+  }
+  
+  .justify-center{
+    display: flex;
+    justify-content: center;
+  }
+  
+  .fa-eye{
+    position: absolute;
+    top: 15px;
+    right: 10px;
+    cursor: pointer;
+    color: #ffffff;
+  }
+  
+  #msgError{
+    text-align: center;
+    color: #ff0000;
+    background-color: #ffbbbb;
+    padding: 10px;
+    border-radius: 4px;
+    display: none;
+  }
+  
+  #msgSuccess{
+    text-align: center;
+    color: #00bb00;
+    background-color: #bbffbe;
+    padding: 10px;
+    border-radius: 4px;
+    display: none;
+  }
+ 
+
+  footer{
+    text-align: center;
+  background: #c22026;
+  padding: 40px 0;
+  color: white;
+  font-size: 25px;
+}
+
+.foxy{
+    background-color: #8b0b0b;
+    height: 2300px;
+ }
+
+ .special{
+     background-color: #a31515;
+     height: 930px;
+ }
+
+ .coluna{
+  float: left;
+  width: 33.33%;
+}
+ .icon:after {
+  content: "";
+  clear: both;
+  display: table;
+
+
+   
+ }
+
+
+
+
